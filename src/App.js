@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { count, length } from './number';
 const user = "Вася";
 const admin = true;
 
@@ -30,6 +31,7 @@ function App() {
           {true}
           {false}
           </div>
+          <div>count*length={count*length}</div>
         <a
           className="App-link"
           href="https://reactjs.org"
