@@ -1,4 +1,14 @@
 import React from 'react';
-const Item = () => (<span>Очень важное дело!</span>)
+import classnames from 'classnames';
+import styles from './Item.module.css';
+
+const Item = ( {value, isDone} ) => (<span className={
+    classnames ({
+        [styles.item]: true,
+        [styles.done]: isDone
+    })
+}>
+{value}
+</span>)
 
 export default Item;
