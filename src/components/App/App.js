@@ -7,13 +7,16 @@ import styles from './App.module.css';
 const App = () => {
   const items = [
     {
-      value: 'Выполнить задание в курсе WHS'
+      value: 'Выполнить задание в курсе WHS',
+      isDone: true
     },
     {
-      value: 'Проверить проект'
+      value: 'Проверить проект',
+      isDone: false
     },
     {
-      value: 'Поучить английский'
+      value: 'Поучить английский',
+      isDone: true
     }
   ]
   
