@@ -5,7 +5,7 @@ import TextField from '@material-ui/core/TextField';
 const InputItem = () => (<div>
     <TextField 
         id="outlined-name"
-        label="Введите новое дело"
+        label="Новая задача"
         margin="normal"
         variant="outlined"
     />
