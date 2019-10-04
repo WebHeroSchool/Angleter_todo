@@ -22,10 +22,10 @@ const App = () => {
   
   
   return (<div className={styles.wrap}>
-  <h3 className={styles.title}>Важные дела:</h3>
-  <InputItem />
-  <ItemList items={items} />
-  <Footer count={3} />
+    <h3 className={styles.title}>Важные дела:</h3>
+    <InputItem />
+    <ItemList items={items} />
+    <Footer count={3} />
   </div>)
   };
 
