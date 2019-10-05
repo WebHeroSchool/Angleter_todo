@@ -1,9 +1,15 @@
 .wrap {
     margin: auto;
-    width: 300px;
+    padding: 15px 30px 30px 30px;
+    width: 350px;
+    border: 10px solid #e0d8e2;
 }
 
 .title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: teal;
+    color: #554562;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
