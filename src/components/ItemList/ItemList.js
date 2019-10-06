@@ -11,7 +11,7 @@ const ItemList = ({items, onClickDone, onClickDelete}) => (
     {items.map(item => {
       const id=item.id
       return <li 
-              key={item.value} 
+              key={item.id} 
               className={styles.item} 
              >
         <Checkbox
