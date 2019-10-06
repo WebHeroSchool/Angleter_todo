@@ -10,10 +10,11 @@ class InputItem extends React.Component {
     };
 
     onButtonClick = () => {
+        if (this.state.inputValue) {
         this.setState({
             inputValue: ''
         });
-        this.props.onClickAdd(this.state.inputValue);
+        this.props.onClickAdd(this.state.inputValue);}
     }
 
     render () {
