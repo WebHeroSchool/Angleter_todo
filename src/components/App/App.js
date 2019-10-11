@@ -69,11 +69,11 @@ class App extends React.Component {
         <h3 className={styles.title}>Планируй свой день!</h3>
         <InputItem onClickAdd={this.onClickAdd}/>
         <ItemList 
-          items={this.state.items} 
+ 
           onClickDone={this.onClickDone}
           onClickDelete={this.onClickDelete}
         />
-        <Footer count={this.state.count} />
+        <Footer  />
       </div>)
   }
 };

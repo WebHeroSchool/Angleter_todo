@@ -32,5 +32,11 @@ const ItemList = ({items, onClickDone, onClickDelete}) => (
   </ul>
 );
 
+ItemList.defaultProps = {
+  items: [{value: 'Ошибка загрузки задачи',
+          isDone: false,
+          id: 0}]
+};
+
 export default ItemList;
 
