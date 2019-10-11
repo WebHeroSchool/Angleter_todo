@@ -11,10 +11,11 @@ class InputItem extends React.Component {
 
     onButtonClick = () => {
         if (this.state.inputValue) {
-        this.setState({
-            inputValue: ''
-        });
-        this.props.onClickAdd(this.state.inputValue);}
+            this.setState({
+                inputValue: ''
+            });
+        this.props.onClickAdd(this.state.inputValue);
+        };
     }
 
     render () {
@@ -27,13 +28,13 @@ class InputItem extends React.Component {
                 margin='normal'
                 variant='outlined'
                 value={this.state.inputValue}
-                onChange={event => this.setState({inputValue: event.target.value })}
+                onChange={event => this.setState({ inputValue: event.target.value })}
             />
             <Button 
                 variant='contained'
                 onClick={this.onButtonClick}
             >
-                добавить в список
+                Добавить в список
             </Button>
         </div>);
     }
