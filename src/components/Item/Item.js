@@ -12,4 +12,9 @@ const Item = ( {value, isDone} ) => (<span className={
     {value}
 </span>)
 
+Item.defaultProps = {
+    value: 'Ошибка загрузки задачи',
+    isDone: false
+};
+
 export default Item;

@@ -24,4 +24,8 @@ const Footer = ({ count }) => (<footer className={styles.wrap}>
     </div>
 </footer>)
 
+Footer.defaultProps = {
+    count: 0
+};
+
 export default Footer;
